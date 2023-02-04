@@ -37,6 +37,7 @@ jobs:
         run: pip install mkdocs[i18n] mkdocs-material
       - name: Install Pillow and CairoSVG (required for social card generation)
         run: pip install pillow cairosvg
+        run: pip install mkdocs-git-revision-date-localized-plugin
       - name: Setup caching
         uses: actions/cache@v3
         with:

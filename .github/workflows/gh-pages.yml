@@ -45,9 +45,9 @@ jobs:
           key: ${{ github.sha }}
           path: .cache
       - name: Build site (_site directory name is used for Jekyll compatiblity)
-        run: mkdocs build --config-file ./en/mkdocs.yml --site-dir ./_site/en
+        run: mkdocs build --config-file ./en/mkdocs.yml --site-dir ./en/_site/
       - name: Build site (_site directory name is used for Jekyll compatiblity)
-        run: mkdocs build --config-file ./kr/mkdocs.yml --site-dir ./_site/kr
+        run: mkdocs build --config-file ./kr/mkdocs.yml --site-dir ./kr/_site/
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 

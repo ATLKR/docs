@@ -37,6 +37,7 @@ theme:
     repo: fontawesome/brands/git-alt
     edit: material/pencil
     view: material/eye
+  language: ko
 
 extra:
   consent:
@@ -55,6 +56,13 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/allen-taewon-lim/
+  alternate:
+    - name: English
+      link: /en/
+      lang: en
+    - name: Korean
+      link: /kr/
+      lang: kr
 
 copyright: Copyright &copy; 2023 - 2023 Allen Taewon Lim
 repo_url: https://github.com/atlkr/atlkr.github.io

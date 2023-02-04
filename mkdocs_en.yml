@@ -1,0 +1,62 @@
+site_name: My Docs
+site_url: https://docs.atlkr.com/en
+docs_dir: ./docs/en
+site_dir: ./en
+plugins:
+  - search:
+      lang:
+        - en
+        #- kr 아직 미지원
+  - social:
+      cards_font: Noto Sans KR
+  - tags:
+      tags_file: tags.md
+  - git-revision-date-localized:
+        enable_creation_date: true
+        
+
+theme:
+  name: material
+  features:
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - toc.integrate
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.action.edit
+    - content.action.view
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil
+    view: material/eye
+
+extra:
+  consent:
+    title: Cookie consent
+    description: >- 
+
+
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
+    actions:
+      - accept
+      - reject
+      - manage
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/allen-taewon-lim/
+
+copyright: Copyright &copy; 2023 - 2023 Allen Taewon Lim
+repo_url: https://github.com/atlkr/atlkr.github.io
+repo_name: atlkr/atlkr.github.io
+  #custom_dir: overrides

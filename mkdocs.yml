@@ -1,5 +1,5 @@
 site_name: My Docs
-site_url: https://docs.atlkr.com
+site_url: https://docs.atlkr.com/en
 plugins:
   - search:
       lang:

@@ -1,9 +1,6 @@
-# Welcome to My Documents Page!
+# Welcome to MkDocs
 
-Hello there, my name is Allen Taewon Lim and I'm a SDET focused on Test Automation and macOS/Unix Security.
-I will be posting documents about the development procedure and the research that I had to go through.
-So please check the documents available on left top, and also feel free to email me feedbacks related to those.
-Thank you very much for visiting my website.
+For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Commands
 

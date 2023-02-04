@@ -1,8 +1,5 @@
 site_name: My Docs
-docs_dir: '../../docs/en'
-site_dir: '../../generated/en'
-
-site_url: https://atlkr.com/documents/en
+site_url: https://atlkr.com/documents
 plugins:
   - search:
       lang:
@@ -18,10 +15,6 @@ plugins:
 
 theme:
   name: material
-  #custom_dir: '../../overrides/'
-  #logo: assets/images/logo.svg
-  #favicon: assets/images/favicon.ico
-  language: en
   features:
     - navigation.tracking
     - navigation.tabs
@@ -43,9 +36,6 @@ theme:
     edit: material/pencil
     view: material/eye
 
-#extra_css:
-#  - assets/stylesheets/yesplan.css
-
 extra:
   consent:
     title: Cookie consent
@@ -63,18 +53,8 @@ extra:
   social:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/allen-taewon-lim/
-  alternate:
-    - name: English
-      link: /en/
-      lang: en
-    - name: Korean
-      link: /kr/
-      lang: kr
 
 copyright: Copyright &copy; 2023 - 2023 Allen Taewon Lim
-repo_url: https://github.com/atlkr/documents
-repo_name: atlkr/documents
+repo_url: https://github.com/atlkr/atlkr.github.io
+repo_name: atlkr/atlkr.github.io
   #custom_dir: overrides
-
-nav:
-- Welcome: index.md

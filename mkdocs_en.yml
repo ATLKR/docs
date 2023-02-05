@@ -1,4 +1,4 @@
-site_name: My Docs
+site_name: Document page of Allen Taewon Lim
 site_url: https://docs.atlkr.com/en
 docs_dir: ./docs/en
 site_dir: ./en
@@ -65,6 +65,6 @@ extra:
       lang: kr
       
 copyright: Copyright &copy; 2023 - 2023 Allen Taewon Lim
-repo_url: https://github.com/atlkr/atlkr.github.io
-repo_name: atlkr/atlkr.github.io
+repo_url: https://github.com/atlkr/docs
+repo_name: atlkr/docs
   #custom_dir: overrides

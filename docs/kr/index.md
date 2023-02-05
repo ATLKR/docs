@@ -1,17 +1,8 @@
-# Welcome to MkDocs
+# 제 문서 페이지를 찾아주셔서 감사합니다!
+이 페이지는 Mkdocs 를 통해서 빌드되었으며, Material 테마를 사용하고 있습니다.
+[제 블로그에도](https://blog.atlkr.com) 다양한 주제의 컨텐츠를 작성중이니, 확인해 주시기 바랍니다. 감사합니다.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## 컨텐츠들 (작성 중)
+* 나만의 개발 환경 준비하기
+* IoT
+* CI/CD
